@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* --------------------- header section--------------------  */
 .header-section {
   display: flex;
+  margin-bottom: 8%;
 }
 .header-texts {
   width: 50%;
@@ -12,19 +13,12 @@ body {
   margin-left: 5%;
 }
 .header-texts h1 {
-  font-size: 52px;
-  color: #4b4747;
+  font-size: 45px;
+  color: #525252;
 }
 .header-texts p {
   color: gray;
   text-align: justify;
-}
-.header-texts a {
-  padding: 20px 40px;
-  text-decoration: none;
-  color: white;
-  background-image: linear-gradient(-90deg, rgb(238, 66, 36), orange);
-  border-radius: 50px;
 }
 .header-texts .button {
   margin-top: 12%;
@@ -32,11 +26,123 @@ body {
 .header-img {
   width: 70%;
 }
-.header-img img {
+#hearder-image {
   width: 80%;
   margin-top: 7%;
   margin-left: 15%;
 }
 span {
   color: tomato;
+}
+button {
+  width: 192px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 68px;
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-size: 1.125rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+/* ----------------about section -------------*/
+
+.about-section {
+  display: flex;
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.about-images-texts {
+  width: 50%;
+}
+
+.about-images-texts h1 {
+  font-size: 35px;
+}
+#about-image {
+  width: 130%;
+  margin-left: -15%;
+  padding-top: 10%;
+  height: 540px;
+}
+#about-text {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.about-paragraph p {
+  padding-right: 20%;
+  padding-top: 2%;
+  font-size: 20px;
+  color: #525252;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+/*-------------- My recipies------------ */
+.recipies-tittle {
+  text-align: center;
+  padding: 20px 20px;
+}
+.recipies-tittle h1 {
+  font-size: 35px;
+}
+.recipies-tittle p {
+  font-size: 20px;
+  font-weight: 100;
+  color: #525252;
+}
+.food-item {
+  display: flex;
+  margin-top: 5%;
+}
+.item-cards {
+  width: 25%;
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 25px;
+  padding: 20px;
+}
+#food-item-1 {
+  margin: 0px 3% 3% 5%;
+}
+#food-item-2 {
+  margin: 0px 3% 3% 0px;
+}
+#food-item-3 {
+  margin: 0px 5% 3% 0px;
+}
+.food-item img {
+  width: 100%;
+  height: 280px;
+  border-radius: 20px;
+}
+.social {
+  display: flex;
+  margin: 10%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 50px gray;
+}
+.social-links {
+  padding: 7%;
+  margin-left: 3%;
+}
+.social-links h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.footer p {
+  padding-top: 35px;
+  color: gray;
 }
