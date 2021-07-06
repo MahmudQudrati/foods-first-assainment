@@ -57,22 +57,25 @@ button {
   background-repeat: no-repeat;
   margin: 10% 0px 5%;
 }
-.about-images-texts {
+.about-texts-images {
   width: 50%;
 }
-
-.about-images-texts h1 {
-  font-size: 40px;
+.about-texts-images h1 {
+  font-size: 30px;
 }
-#about-image {
-  width: 130%;
+
+#about-person-image {
+  width: 140%;
+  height: 560px;
+  margin-top: 5%;
   margin-left: -15%;
-  padding-top: 10%;
-  height: 540px;
+}
+#about-person-image img {
+  height: 560px;
 }
 #about-text {
-  margin: 5% 0px 0px 5%;
-  padding-top: 60px;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 .about-paragraph p {
   padding: 2% 20% 0px 0px;
