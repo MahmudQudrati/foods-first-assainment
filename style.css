@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+/* --------------------- header section--------------------  */
+.header-section {
+  display: flex;
+}
+.header-texts {
+  width: 50%;
+  margin-top: 12%;
+  margin-left: 5%;
+}
+.header-texts h1 {
+  font-size: 52px;
+  color: #4b4747;
+}
+.header-texts p {
+  color: gray;
+  text-align: justify;
+}
+.header-texts a {
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(-90deg, rgb(238, 66, 36), orange);
+  border-radius: 50px;
+}
+.header-texts .button {
+  margin-top: 12%;
+}
+.header-img {
+  width: 70%;
+}
+.header-img img {
+  width: 80%;
+  margin-top: 7%;
+  margin-left: 15%;
+}
+span {
+  color: tomato;
+}
